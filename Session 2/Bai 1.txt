@@ -1,0 +1,10 @@
+User Story
+
+"As a customer, I want to add products to my shopping cart so that I can review and purchase them later."
+Phân tích cấu trúc
+
+Role (Vai trò): Customer (Khách hàng)
+
+Goal (Mục tiêu): Add products to the shopping cart (Thêm sản phẩm vào giỏ hàng)
+
+Benefit (Lợi ích): Review and purchase them later (Xem lại và mua sau)
