@@ -1,0 +1,35 @@
+BƯỚC 1 - Tạo Burndown Chart đơn giản cho Sprint
+Giả sử Sprint kéo dài 10 ngày làm việc (2 tuần) và nhóm có 100 Story Points để hoàn thành.
+Trục:
+Trục X: Ngày trong Sprint (Day 1 -> Day 10)
+Trục Y: Khối lượng công việc còn lại (Remaining Story Points)
+Đường lý tưởng (Ideal Burndown Line): giảm đều từ 100 -> 0 theo thời gian.
+Đường thực tế: được cập nhật hằng ngày dựa trên tiến độ nhóm.
+BƯỚC 2 - Mô phỏng tiến độ 5 ngày đầu và cập nhật Burndown
+Ngày	Story Points còn lại	Burned (hoàn thành)
+1	100	0
+2	90	10
+3	80	10
+4	70	10
+5	60	10
+Nhận xét: Nhóm đang burn 10 điểm/ngày (ổn định).
+BƯỚC 3 - Giải thích thông tin trên Burndown Chart
+Nhóm có đang đi đúng hướng không?
+Nếu Ideal Line là giảm đều 100 -> 0 trong 10 ngày,
+thì đến Ngày 5, lý tưởng điểm còn lại ~ 50.
+Nhưng thực tế nhóm còn lại 60 -> Nhóm tụt lại 10 điểm so với kế hoạch.
+Tốc độ làm việc hiện tại chậm hơn so với cần thiết để hoàn thành Sprint Goal.
+Nếu tiếp tục với tốc độ 10 điểm/ngày, nhóm chỉ hoàn thành khoảng 100 - (10×10) = 0 nhưng không có buffer nên nguy cơ cao bị trễ.
+BƯỚC 4 - Tình huống đặc biệt: Burndown không giảm đều
+Giả sử Ngày 5 team chỉ còn lại 40 điểm thay vì 60
+-> Nghĩa là nhóm burn được 40 điểm trong 1 ngày.
+Ngày 4: còn 70
+Ngày 5: còn 40  -> burn 30 điểm (quá lớn so với các ngày trước)
+Điều này cho thấy:
+Khả năng 1: Nhiệm vụ được hoàn thành dồn cục
+Nhiều task lớn (big stories) hoàn thành cùng lúc.
+Task quá lớn -> team không chia nhỏ (anti-pattern).
+Khả năng 2: Team cập nhật Burndown trễ
+Họ làm xong từ trước nhưng không cập nhật.
+Khả năng 3: Chất lượng chưa chắc chắn
+Nếu burn đột biến -> nguy cơ over-reporting hoặc done chưa đúng Definition of Done.

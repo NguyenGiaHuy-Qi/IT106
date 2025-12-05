@@ -1,0 +1,60 @@
+KỊCH BẢN DAILY SCRUM (15 phút)
+Bối cảnh: Sprint đang phát triển một ứng dụng di động. Sprint Goal: "Hoàn thiện chức năng đăng nhập và giao diện trang chủ cơ bản".
+Nhân sự tham gia:
+
+Scrum Master (SM) – điều phối cuộc họp
+Dev A – phụ trách backend
+Dev B – phụ trách mobile UI
+Tester C – kiểm thử tính năng
+
+0' – 1': Scrum Master mở đầu
+1' – 8': Vòng cập nhật của từng thành viên
+(Mỗi người trả lời 3 câu hỏi chuẩn: Hôm qua đã làm gì? Hôm nay sẽ làm gì? Có trở ngại gì không?)
+Dev A
+Hôm qua:
+Hoàn thành API đăng nhập bằng email và password.
+Kết nối API với cơ sở dữ liệu Firebase.
+Hôm nay:
+Làm API cho chức năng "remember me" và xử lý lỗi đăng nhập.
+Trở ngại:
+Cần Dev B cung cấp danh sách mã lỗi UI để map vào API.
+SM ghi nhận
+
+Dev B
+Hôm qua:
+Hoàn thiện giao diện màn hình đăng nhập
+Gắn logic cơ bản với API giả lập.
+Hôm nay:
+Tích hợp API thật của Dev A.
+Bắt đầu thiết kế giao diện trang chủ.
+Trở ngại:
+Hiện phần response của API chưa có field errorType để xử lý UI theo chuẩn của nhóm.
+SM hỏi lại:
+"Dev A, việc bổ sung errorType có thể hoàn thành trong hôm nay không?"
+Dev A:
+"Có thể hoàn thành trước 11h sáng."
+SM:
+"Tốt, vậy Dev B sẽ tiếp tục tích hợp sau 11h."
+
+Tester C
+Hôm qua:
+Viết test case cho tính năng đăng nhập.
+Thiết lập môi trường test trên thiết bị thật.
+Hôm nay:
+Bắt đầu chạy test khi Dev B tích hợp API thật.
+Kiểm thử giao diện đăng nhập trên các kích thước màn hình khác nhau.
+Trở ngại:
+Chưa có tài liệu mô tả chi tiết các loại lỗi trả về để viết test negative đầy đủ.
+SM:
+"Khi Dev A và Dev B trao đổi về mã lỗi, nhớ chia sẻ lại cho Tester C. Mình sẽ theo dõi để đảm bảo thông tin đủ trước buổi chiều."
+
+8' – 12': Scrum Master tổng hợp & xác nhận trở ngại
+SM:
+"Nhận diện 2 trở ngại chính hôm nay:
+API cần bổ sung errorType.
+Cần thống nhất danh sách mã lỗi giữa Dev A – Dev B – Tester C.
+Hành động ngay:
+Dev A và Dev B họp nhanh sau Daily (10 phút).
+Dev B cung cấp tài liệu mã lỗi cho Tester C trước 14h.
+Mục tiêu hôm nay: tích hợp API đăng nhập để Tester bắt đầu kiểm thử."
+ 12' – 15': Kết thúc

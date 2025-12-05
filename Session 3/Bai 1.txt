@@ -1,0 +1,5 @@
+Ước lượng đề xuất: 8 Story Points
+Việc triển khai tính năng "Tạo công việc mới" trong ứng dụng quản lý công việc thường không chỉ đơn giản là tạo một form nhập dữ liệu. Độ phức tạp tăng lên phụ thuộc vào luồng nghiệp vụ, tính nhất quán dữ liệu và tích hợp xuyên suốt hệ thống.
+
+1. Khối lượng công việc cần thực hiện tương đối nhiều
+2. Tích hợp backend

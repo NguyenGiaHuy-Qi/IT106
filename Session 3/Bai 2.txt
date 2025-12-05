@@ -1,0 +1,12 @@
+Ước lượng đề xuất: 13 Story Points
+Tính năng "Thanh toán đơn hàng" liên quan đến nhiều yếu tố phức tạp: xử lý thanh toán, tính toán tiền, kết nối với bên thứ ba, bảo mật và trạng thái đơn hàng. Dưới đây là các yếu tố chính được xem xét khi ước lượng.
+
+1. Luồng nghiệp vụ phức tạp
+
+Chức năng thanh toán không chỉ là "bấm nút trả tiền".
+Thông thường bao gồm:
+Chọn phương thức thanh toán (thẻ, ví điện tử, COD, chuyển khoản,…)
+Tính phí ship, voucher, thuế VAT.
+Kiểm tra lại giỏ hàng (giá thay đổi? sản phẩm hết hàng?)
+Xác nhận địa chỉ giao hàng.
+Tạo đơn hàng và lưu vào hệ thống.
